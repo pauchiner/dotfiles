@@ -1,13 +1,15 @@
-<h3 align="center" display="inline">
+<div align="center">
     <img src="https://github.com/pauchiner/dotfiles/blob/main/.github/images/favicon.png" width="96px" height="96px"/>
-    My personal dotfiles
-</h3>
+    <h3>
+        My Dotfiles
+    </h3>
+</div>
 
 <image align="center" src="https://github.com/pauchiner/dotfiles/blob/main/.github/images/screenshot.png"/>
 
 ## ⚙️  Avaliable Configurations
+- Neovim ([ChinerNvim](https://github.com/pauchiner/ChinerNvim))
 - Fish shell
-- Neovim
 - Tmux
 
 ## 🛠️ Installation
@@ -17,16 +19,16 @@ these are the required apps for the correct work of the configuration:
 - [node](https://nodejs.org/en)
 - [exa](https://github.com/ogham/exa)
 - [git](https://git-scm.com/) 
-- [fish](https://fishshell.com/)
 - [neovim](https://neovim.io/)
 - [lazygit](https://github.com/jesseduffield/lazygit)
 - [tmux](https://github.com/tmux/tmux/wiki)
-- [tmux plugin manager](https://github.com/tmux-plugins/tpm#installation)
+- [fish](https://fishshell.com/)
+- [fisher (fish plugin manager)](https://github.com/jorgebucaran/fisher)
 
 if you are on mac you can run that command:
 
 ```bash
-brew install node exa git fish neovim lazygit tmux
+brew install node exa git fish fisher neovim lazygit tmux
 ```
 
 ### Use the configuration
@@ -42,6 +44,7 @@ $ git clone https://github.com/pauchiner/dotfiles.git .config
 ```
 
 then your can start running `nvim`, when all the plugins are installed, reload it
+> 🐟 don't forget to set fish as your default shell
 
 ## 🧑‍🤝‍🧑 Contributing
 All contributions are welcome:
