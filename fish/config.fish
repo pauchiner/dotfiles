@@ -6,4 +6,8 @@ if status is-interactive
   # Aliases
   source ~/.config/fish/aliases.fish
 
+  # Apps
+  source ~/.config/fish/apps.fish
+
 end
+
