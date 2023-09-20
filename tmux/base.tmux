@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Update the enviroment path (Fixes the `returned 127` issue)
+set-environment -g PATH "/opt/homebrew/bin:/bin:/usr/bin"
+
 # Default shell
 set -g default-shell /opt/homebrew/bin/fish
 
