@@ -1,0 +1,27 @@
+gui:
+  scrollHeight: 1
+  showRandomTip: false
+  showBottomLine: false
+  nerdFontsVersion: "3"
+  commandLogSize: 1
+  theme:
+    activeBorderColor:
+      - '#b78fda'
+      - bold
+    inactiveBorderColor:
+      - '#7e849c'
+    optionsTextColor:
+      - '#8aadf4'
+    selectedLineBgColor:
+      - '#363a4f'
+    cherryPickedCommitBgColor:
+      - '#494d64'
+    cherryPickedCommitFgColor:
+      - '#f4dbd6'
+    unstagedChangesColor:
+      - '#b78fda'
+    defaultFgColor:
+      - '#cad3f5'
+    searchingActiveBorderColor:
+      - '#eed49f'
+notARepository: 'quit'
