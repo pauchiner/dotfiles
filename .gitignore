@@ -1,7 +1,12 @@
 .DS_Store
 configstore
+wireshark
 raycast
 gtk-2.0
 gcloud
 iterm2
+yarn
+zed
 gh
+fish/fish_variables
+lazygit/state.yml
