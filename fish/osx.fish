@@ -3,3 +3,5 @@ if type -q eza
   alias la "eza -l -g --icons"
   alias tree "eza --tree --icons"
 end
+
+clear
