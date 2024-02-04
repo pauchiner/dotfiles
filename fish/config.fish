@@ -1,5 +1,7 @@
 set fish_greeting ""
 
+# Color theme
+source (dirname (status --current-filename))/theme.fish
 
 # Operative system specific configs
 switch (uname)
