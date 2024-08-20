@@ -31,30 +31,32 @@
 
 [eza: improved ls command](https://github.com/eza-community/eza)
 
+[zoxide: a smarter cd command](https://github.com/ajeetdsouza/zoxide)
+
 ### ⚡Quick Start
 
 ####  MacOS
 ```bash
-brew install git node eza fish fisher neovim lazygit tmux
+brew install git node eza zoxide fish fisher neovim lazygit tmux
 ```
 #### 🐧 Ubuntu/Debian
 ```bash
-sudo apt install git nodejs eza fish fisher neovim lazygit tmux
+sudo apt install git nodejs eza zoxide fish fisher neovim lazygit tmux
 ```
 
 #### 📐 Arch
 ```bash
-sudo pacman -S git nodejs eza fish fisher neovim lazygit tmux
+sudo pacman -S git nodejs eza zoxide fish fisher neovim lazygit tmux
 ```
 
 #### 🎩 Fedora
 ```bash
-sudo dnf install git nodejs eza fish fisher neovim lazygit tmux
+sudo dnf install git nodejs eza zoxide fish fisher neovim lazygit tmux
 ```
 
 #### 🦎 openSUSE
 ```bash
-sudo zypper install git nodejs eza fish fisher neovim lazygit tmux
+sudo zypper install git nodejs eza zoxide fish fisher neovim lazygit tmux
 ```
 
 ---
