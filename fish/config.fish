@@ -24,6 +24,10 @@ else
 end
 
 # Apps Aliases
+if command -q zoxide
+  zoxide init fish | source
+end
+
 if command -q lazygit
   alias lz lazygit
 end
@@ -36,3 +40,10 @@ end
 if command -q git
   alias g git
 end
+
+# pnpm
+set -gx PNPM_HOME "/Users/pauchiner/Library/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
