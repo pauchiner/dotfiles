@@ -1,0 +1,21 @@
+# General
+command = "/opt/homebrew/bin/fish --login --interactive"
+shell-integration = "fish"
+
+# Windows
+macos-titlebar-proxy-icon = "hidden"
+macos-titlebar-style = ""
+window-position-x = "720"
+window-position-y = "320"
+window-width = "80"
+window-height = "25"
+title = " "
+
+# Theme & Colors
+theme = "light:ayu_light,dark:ayu"
+background-opacity = "0.8"
+background-blur = "true"
+
+# Fonts
+font-family = "GeistMono Nerd Font"
+font-size = "21"
