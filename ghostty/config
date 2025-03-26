@@ -12,7 +12,7 @@ window-height = "25"
 title = " "
 
 # Theme & Colors
-theme = "light:ayu_light,dark:ayu"
+theme = "rose-pine-moon"
 background-opacity = "0.8"
 background-blur = "true"
 
